@@ -33,7 +33,7 @@
     }
 
     /* Large devices */
-    @media (min-width: 1200px) {
+    @media (min-width: 992px) {
     .col-lg-1 {
     width: 8.33%;
     }
@@ -73,7 +73,7 @@
     }
     }
     /* Medium devices */
-    @media (min-width: 992px) and (max-width: 1199px) {
+    @media (min-width: 768px) and (max-width: 992px) {
     .col-md-1 {
     width: 8.33%;
     }
