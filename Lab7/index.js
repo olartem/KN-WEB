@@ -123,3 +123,8 @@ function triangle(value1, param1, value2, param2) {
   console.log("alpha = " + (alpha * RAD_TO_DEG));
   console.log("beta = " + (beta * RAD_TO_DEG));
 }
+(function() {
+  console.log("Function triangle is made for solving right triangles.\n" + 
+  "It takes (value1,param1,value2,param2) where params are leg, hypotenuse, angle, opposite angle, adjacent angle and values are values of the parameters.\n" + 
+  "Note: all values must be greater than 0, leg can't be greater than hypotenuse and angles must be less than 90 degrees");
+})();
