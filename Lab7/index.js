@@ -136,5 +136,9 @@ function triangle(value1, param1, value2, param2) {
       return "Invalid parameter";
   }
 
-  console.log ({ a, b, c, alpha: alpha * RAD_TO_DEG, beta: beta * RAD_TO_DEG });
+  console.log ("a = " + a);
+  console.log("b = " + b);
+  console.log("c = " + c);
+  console.log("alpha = " + (alpha * RAD_TO_DEG));
+  console.log("beta = " + (beta * RAD_TO_DEG));
 }
