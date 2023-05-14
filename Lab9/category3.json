@@ -1,0 +1,42 @@
+{
+    "category": {
+      "id": 3,
+      "name": "Books",
+      "shortname": "Books",
+      "notes": "Some notes about books."
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "The Great Gatsby",
+        "shortname": "Gatsby",
+        "description": "A classic novel by F. Scott Fitzgerald.",
+        "price": 12.99,
+        "photo": "https://place-hold.it/200x200"
+    },
+    {
+      "id": 2,
+      "name": "To Kill a Mockingbird",
+      "shortname": "Mockingbird",
+      "description": "A Pulitzer Prize-winning novel by Harper Lee.",
+      "price": 14.99,
+      "photo": "https://place-hold.it/200x200"
+    },
+    {
+      "id": 3,
+      "name": "1984",
+      "shortname": "1984",
+      "description": "A dystopian novel by George Orwell.",
+      "price": 10.99,
+      "photo": "https://place-hold.it/200x200"
+    },
+    {
+      "id": 4,
+      "name": "The Lord of the Rings",
+      "shortname": "LOTR",
+      "description": "An epic fantasy series by J.R.R. Tolkien.",
+      "price": 24.99,
+      "photo": "https://place-hold.it/200x200"
+    }
+  ]
+}

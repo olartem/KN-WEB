@@ -1,0 +1,42 @@
+{
+    "category": {
+      "id": 2,
+      "name": "Clothing",
+      "shortname": "Clothing",
+      "notes": "Some notes about clothing."
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "T-Shirt",
+        "shortname": "T-Shirt",
+        "description": "A comfortable and stylish cotton T-shirt.",
+        "price": 29.99,
+        "photo": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 2,
+        "name": "Jeans",
+        "shortname": "Jeans",
+        "description": "Classic denim jeans for a casual look.",
+        "price": 49.99,
+        "photo": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 3,
+        "name": "Dress",
+        "shortname": "Dress",
+        "description": "An elegant dress for special occasions.",
+        "price": 79.99,
+        "photo": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 4,
+        "name": "Sneakers",
+        "shortname": "Sneakers",
+        "description": "Stylish sneakers for everyday comfort.",
+        "price": 89.99,
+        "photo": "https://place-hold.it/200x200"
+      }
+    ]
+  }

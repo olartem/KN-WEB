@@ -1,0 +1,42 @@
+{
+    "category": {
+      "id": 1,
+      "name": "Electronics",
+      "shortname": "Electronics",
+      "notes": "Some notes about electronics."
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Smartphone",
+        "shortname": "Phone",
+        "description": "A powerful smartphone with advanced features.",
+        "price": 599.99,
+        "photo": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 2,
+        "name": "Laptop",
+        "shortname": "Laptop",
+        "description": "A high-performance laptop for productivity and gaming.",
+        "price": 1499.99,
+        "photo": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "shortname": "Headphones",
+        "description": "Premium wireless headphones with noise-cancellation.",
+        "price": 199.99,
+        "photo": "https://place-hold.it/200x200"
+      },
+      {
+        "id": 4,
+        "name": "Smart TV",
+        "shortname": "TV",
+        "description": "A large smart TV with stunning 4K resolution.",
+        "price": 999.99,
+        "photo": "https://place-hold.it/200x200"
+      }
+    ]
+  }
