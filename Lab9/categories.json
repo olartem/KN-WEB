@@ -1,0 +1,22 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Electronics",
+            "shortname": "Electronics",
+            "notes": "Some notes about electronics."
+        },
+        {
+            "id": 2,
+            "name": "Clothing",
+            "shortname": "Clothing",
+            "notes": "Some notes about clothing."
+        },
+        {
+            "id": 3,
+            "name": "Books",
+            "shortname": "Books",
+            "notes": "Some notes about books."
+        }
+    ]
+}

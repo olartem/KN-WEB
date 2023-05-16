@@ -1,6 +1,7 @@
 var categoryLinks = document.getElementById('categoryLinks');
 var homeLink1 = document.getElementById('homeLink1');
 var homeLink2 = document.getElementById('homeLink2');
+fetchCategories();
 categoryLinks.addEventListener('click', function(event) {
   event.preventDefault();
   var category = event.target.dataset.category;
@@ -54,6 +55,28 @@ function renderHomePage() {
   `;
   var itemsDiv = document.getElementById('items');
   itemsDiv.innerHTML = '';
+}
+
+function renderLinks(categories) {
+  categories.forEach(category => {
+    category = `
+    <li><a class="dropdown-item" href="#" data-category="${category.id}">${category.shortname}</a></li>
+    `;
+    categoryLinks.innerHTML += category;
+  });
+  category = `
+    <li><a class="dropdown-item" href="#" data-category="random">Specials</a></li>
+  `;
+  categoryLinks.innerHTML += category;
+}
+
+function fetchCategories() {
+  fetch('categories.json')
+    .then(response => response.json())
+    .then(data => {
+      renderLinks(data.categories);
+    })
+    .catch(error => console.error(error));
 }
 
 function fetchCategoryById(categoryId) {
